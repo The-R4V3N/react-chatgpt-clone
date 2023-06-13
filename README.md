@@ -37,7 +37,8 @@ This repository contains a ChatGPT clone made in React
 - [License](#license)
   
 ## Features
-  - The vast majority of the functionalities that you are familiar with from the official ChatGPT website are present.
+  
+  The vast majority of the functionalities that you are familiar with from the official ChatGPT website are present.
   
 ## Getting Started
 
