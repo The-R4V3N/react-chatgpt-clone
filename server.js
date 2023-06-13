@@ -6,19 +6,20 @@ require('dotenv').config();
 app.use(express.json())
 app.use(cors())
 
+const API_KEY = process.env.API_KEY
 
-app.post('/completion', async (req, res) => {
+app.post('/completions', async (req, res) => {
     const options = {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${process.env.API_KEY}`,
+            'Authorization': `Bearer ${API_KEY}`,
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
-            messages: [{ role: "user", content: "how are you today?"}],
-            max_tokens: 150,
-            temperature: 0.5,
+            messages: [{ role: "user", content: req.body.message}],
+            max_tokens: 150, // change the value if you need more tokens.
+            temperature: 0.5, // change the value if you need more creative answers.
         })
     }   
     try {
