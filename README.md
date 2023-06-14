@@ -46,16 +46,28 @@ This repository contains a ChatGPT clone made in React
 
   - Clone this repository to your local machine.
   - Set up your development environment and ensure you have the necessary dependencies installed.
-  - Create a .env file in the root of the project and place your openai API key in this file. 
-  - Your .env file should look like this: API_KEY = "YOUR API_KEY" Replace YOUR API_KEY with you actuall API KEY
+  - You can install the necessary dependencies with:
+
+
+### Install 
+  - [Node.js]((https://nodejs.org))
+
+    In the root of the project you can run:
+
+### `npm install`
+
   - Get your Api Key from [openai](https://openai.com/api/)
   - Create an account or login to openai, and then click on your profile and the API tab. Once there, you can generate a new API key.
+  
+  - Rename .env.example to .env and place your API-Key inside save it. 
+
+### Now you are god to go
   
 ## Usage
 
   In the project directory, you can run:
 
-### `npm run start:frontend` to start the frontend.
+### `npm run start:frontend` to start the frontend
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
