@@ -25,6 +25,7 @@
 ## react-chatgpt-clone
  
  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+ ![Lines of code](https://tokei.rs/b1/github/The-R4V3N/react-chatgpt-clone)
 
 This repository contains a ChatGPT clone made in React
   
